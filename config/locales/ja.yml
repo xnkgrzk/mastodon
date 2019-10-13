@@ -1127,6 +1127,12 @@ ja:
     contrast: Mastodon (ハイコントラスト)
     default: Mastodon (ダーク)
     mastodon-light: Mastodon (ライト)
+    instance-ticker-type-0: Mastodon (ダーク / InstanceTicker Type-0 代替アイコン)
+    instance-ticker-type-1: Mastodon (ダーク / InstanceTicker Type-1 Favicon)
+    instance-ticker-type-0-contrast: Mastodon (ハイコントラスト / InstanceTicker Type-0 代替アイコン)
+    instance-ticker-type-1-contrast: Mastodon (ハイコントラスト / InstanceTicker Type-1 Favicon)
+    instance-ticker-type-0-light: Mastodon (ライト / InstanceTicker Type-0 代替アイコン)
+    instance-ticker-type-1-light: Mastodon (ライト / InstanceTicker Type-1 Favicon)
   time:
     formats:
       default: "%Y年%m月%d日 %H:%M"
