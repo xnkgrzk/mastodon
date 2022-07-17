@@ -68,8 +68,7 @@ RUN npm install -g yarn && \
 
 COPY Gemfile* package.json yarn.lock /opt/mastodon/
 
-RUN git config --global url.https://.insteadOf git:// && \
-  cd /opt/mastodon && \
+RUN cd /opt/mastodon && \
   bundle config set deployment 'true' && \
   bundle config set without 'development test' && \
 	bundle install -j$(nproc) && \
