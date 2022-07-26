@@ -16,7 +16,7 @@ media_host ||= host_to_url(ENV['S3_CLOUDFRONT_HOST'])
 media_host ||= host_to_url(ENV['S3_HOSTNAME']) if ENV['S3_ENABLED'] == 'true'
 media_host ||= assets_host
 
-instance_ticker_host = "https://wee.jp"
+instance_ticker_host = 'https://inst.ance.tk'
 
 Rails.application.config.content_security_policy do |p|
   p.base_uri        :none
